@@ -285,7 +285,7 @@ max-width: 562px;
     margin-right: 24px;
 }
 
-.contact-form input{
+.contact-form input[type='text'], .contact-form input[type='email']{
     width: 450px;
     padding: 18px;
     margin-bottom: 10px;
@@ -297,4 +297,16 @@ max-width: 562px;
     padding: 18px;
     border: none;
     outline: none;
+    margin-bottom: 24px;
 }
+.contact-form input[type='submit']{
+    padding: 18px 35px;
+    color: #FFFFFF;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
